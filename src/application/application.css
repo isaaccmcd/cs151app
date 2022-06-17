@@ -1,0 +1,395 @@
+
+/*TITLES FOR SCENES AND WINDOWS**************************************************************************************************/
+.home-title{
+	/*ANY ITEMS HERE MUST BE TAGGED AS IMPORTANT*/
+	-fx-font: 100 Verdana !important;
+	-fx-text-fill: white !important;
+	-fx-font-weight: normal !important;
+}
+
+.events-title{
+	/*ANY ITEMS HERE MUST BE TAGGED AS IMPORTANT*/
+	-fx-font: 75 Verdana !important;
+	-fx-text-fill: white !important;
+	-fx-font-weight: normal !important;
+}
+
+.secondary-title{
+	/*ANY ITEMS HERE MUST BE TAGGED AS IMPORTANT*/
+	-fx-font: 45 Verdana !important;
+	-fx-text-fill: white !important;
+	-fx-font-weight: normal !important;
+}
+
+
+/*EXTRA HEADINGS AMD LABELS******************************************************************************************************/
+.home-redirect-text{
+	/*ANY ITEMS HERE MUST BE TAGGED AS IMPORTANT*/
+	-fx-font: 30 Verdana !important;
+	-fx-text-fill: white !important;
+	-fx-font-weight: normal !important;
+}
+
+
+/*RANDOM / EXTRAS****************************************************************************************************************/
+.event-card{
+	-fx-font-family: 'Verdana' !important;
+	-fx-font-size: 12 !important;
+	-fx-font-weight: normal !important;
+	-fx-text-fill: black !important;
+		
+	-fx-background-radius: .50em !important;
+	-fx-background-color: white !important;
+	-fx-border-style: solid !important;
+	-fx-border-color: white !important;
+	-fx-border-radius: .50em !important;
+}
+
+.event-card:hover{
+	-fx-border-color: lightskyblue !important;
+	-fx-background-color: lightskyblue !important;
+}
+
+.tool-tip{
+	-fx-font-size: 25 !important;
+	-fx-font-weight: bold !important;
+	-fx-font-style: italic;
+	-fx-background-color: white;
+	-fx-border-width: 5;
+	-fx-border-color: royalblue;
+	-fx-border-style: solid; /*dashed or dotted*/
+	-fx-border-radius: .50em;
+	-fx-text-fill: royalblue;
+}
+
+/*SCROLLPANE AND RELATED*********************************************************************************************************/
+.scroll-pane{
+	-fx-background-color: transparent;
+}
+
+.scroll-pane .viewport{
+	-fx-background-color: transparent;
+}
+
+.scroll-bar:vertical{
+	-fx-background-color: transparent;
+	-fx-pref-width: 30px;
+}
+
+.scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-background-insets: 0,0,0,0;
+}
+
+.scroll-bar:vertical .thumb{
+	-fx-background-color: white;
+	-fx-background-radius: 0em;
+}
+
+.increment-button, .decrement-button{
+	-fx-background-color: white;
+	-fx-background-radius: 0em;
+	-fx-padding: 10, 0, 10, 0;
+}
+
+.increment-arrow, .decrement-arrow{
+	-fx-background-color: royalblue;
+}
+
+/*.scroll-bar .corner{}*/
+
+
+/*LABELS*************************************************************************************************************************/
+.label{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 16;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+
+.req-lab{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 12;
+	/* -fx-font-style: italic; */
+	-fx-text-fill: darkred;
+}
+
+.alt-req-lab{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 18;
+	/* -fx-font-style: italic; */
+	-fx-text-fill: darkred;
+}
+
+.verify-lab{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 20;
+	/* -fx-font-style: italic; */
+
+	-fx-text-fill: darkred;
+}
+
+.detailed-events-page-event-title{
+	-fx-font: 75 Verdana !important;
+	-fx-text-fill: white !important;
+	-fx-font-weight: normal !important;
+}
+
+.detailed-events-page-elements{
+	-fx-font: 30 Verdana !important;
+	-fx-text-fill: white !important;
+	-fx-font-weight: normal !important;
+}
+
+.detailed-events-page-subheadings{
+	-fx-font: 30 Verdana !important;
+	-fx-text-fill: white !important;
+	-fx-font-weight: normal !important;
+}
+
+.event-card-title{
+	-fx-font-size: 25px;
+	-fx-text-fill: royalblue;
+}
+
+.hidden-id{
+	-fx-font-size: 1px;
+	-fx-text-fill: transparent;	
+
+}
+
+/*BUTTONS************************************************************************************************************************/
+.button{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 18;
+	-fx-font-weight: bold;
+	
+	-fx-background-radius: .50em;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	-fx-border-radius: .50em;
+}
+
+.button:hover{
+	/*-fx-text-fill: aqua;*/
+	-fx-text-fill: white;
+	-fx-background-color: royalblue;
+	-fx-border-color: royalblue;
+	-fx-border-width: 6;
+}
+
+/*ADD EVENT WINDOW*/
+.addEventbutton{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 18;
+	-fx-font-weight: bold;
+	
+	/*-fx-background-radius: 2.50em;*/
+	-fx-background-radius: .50em;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	/*-fx-border-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+}
+
+.addEventbutton:hover{
+	-fx-background-color: royalblue;
+	-fx-border-color: royalblue;
+	-fx-text-fill: white;
+	
+}
+
+.closebutton{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 18;
+	-fx-font-weight: bold;
+	
+	/*-fx-background-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	/*-fx-border-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+}
+
+.closebutton:hover{
+	-fx-text-fill: white;
+	-fx-background-color: darkred;
+	-fx-border-color: darkred;
+}
+
+/*VERIFY DELETE ALL EVENTS WINDOW*/
+.yes-button{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 22;
+	-fx-font-weight: bold;
+	
+	/*-fx-background-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	/*-fx-border-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+}
+
+.yes-button:hover{
+	-fx-text-fill: white;
+	-fx-background-color: darkred;
+	-fx-border-color: darkred;
+}
+
+.no-button{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 22;
+	-fx-font-weight: bold;
+	
+	/*-fx-background-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	/*-fx-border-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+}
+
+.no-button:hover{
+	-fx-text-fill: white;
+	-fx-background-color: royalblue;
+	-fx-border-color: royalblue;
+}
+
+
+/*DELETE EVENT WINDOW*/
+.deletebutton{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 18;
+	-fx-font-weight: bold;
+	
+	/*-fx-background-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	/*-fx-border-radius: 2.50em;*/
+	-fx-border-radius: .50em;
+}
+
+.deletebutton:hover{
+	-fx-text-fill: white;
+	-fx-background-color: darkred;
+	-fx-border-color: darkred;
+}
+
+/*CHOICE BOX*********************************************************************************************************************/
+.choice-box{
+	-fx-background-radius: 0.00em;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	-fx-border-radius: 0.00em;
+}
+
+.choice-box .label{
+	-fx-text-fill: black;
+}
+
+.choice-box:hover{
+	-fx-background-color: lightblue;
+	-fx-border-color: lightblue;
+}
+
+
+/*RADIO BUTTON*******************************************************************************************************************/
+.radio-button{
+	-fx-font-family: 'Verdana';
+	-fx-font-size: 16;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+
+.radio-button .radio{
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	-fx-border-radius: 10.00em;
+}
+
+.radio-button:selected .radio .dot{
+	-fx-background-color: black;
+}
+
+.radio-button .radio:hover{
+	-fx-background-color: lightblue;
+	-fx-border-color: lightblue;
+}
+
+
+/*TEXT FIELD AND AREA************************************************************************************************************/
+.text-field{
+	-fx-border-color: white;
+	-fx-border-style: solid;
+	-fx-prompt-text-fill: gray;
+}
+
+.text-field:hover{
+	-fx-background-color: lightblue;
+	-fx-border-color: lightblue;
+}
+
+.text-area{
+	-fx-border-color: white;
+	-fx-border-style: solid;
+	-fx-prompt-text-fill: gray;
+}
+
+.text-area:hover{ /*THIS IS NEEDED DONT DELETE*/
+	-fx-background-color: lightblue;
+	-fx-border-color: lightblue;
+}
+
+.text-area .content:hover{ /*THIS IS NEEDED DONT DELETE*/
+	-fx-background-color: lightblue;
+	-fx-border-color: lightblue;
+}
+
+
+/*BORDERS AND DIVIDERS***********************************************************************************************************/
+.small-bord-top{
+	-fx-border-style: solid hidden hidden hidden;
+	-fx-border-width: 1;
+	-fx-border-color: black;
+}
+
+.small-bord-bot{
+	-fx-border-style: hidden hidden solid hidden;
+	-fx-border-width: 1;
+	-fx-border-color: black;
+}
+
+.big-bord-top{
+	-fx-border-style: solid hidden hidden hidden;
+	-fx-border-width: 5;
+	-fx-border-color: white;
+}
+
+.big-bord-bot{
+	-fx-border-style: hidden hidden solid hidden;
+	-fx-border-width: 5;
+	-fx-border-color: white;
+}
+
+.big-bord-right{
+	-fx-border-style: hidden solid hidden hidden;
+	-fx-border-width: 5;
+	-fx-border-color: white;
+}
+
+.big-bord-all-sides{
+	-fx-border-style: solid solid solid solid;
+	-fx-border-width: 2;
+	-fx-border-color: white;
+}
